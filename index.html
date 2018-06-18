@@ -13,15 +13,15 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
 </head>
 
-<body>
-
-    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-    </div>
-
-    <nav id="mainNav" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+<body data-spy="scroll" data-target="#mainNav" data-offset="50">
+    <nav id="mainNav" class="navbar navbar-expand-lg sticky-top">
         <div class="container">
+            <a class="navbar-brand" href="#about">
+                <h3>Aaron Colbert</h3>
+            </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navResponsive" aria-controls="navResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@
                 <!--<a class="navbar-brand" href="#">Hidden brand</a>-->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link active" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#resume">Resume</a>
@@ -45,8 +45,9 @@
             </div>
         </div>
     </nav>
-    <div class="container content" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-        <section id="about">
+
+    <section id="about" class="section-padding">
+        <div class="container">
             <div class="row">
                 <div class='col-md-10 md-offset-2 mx-auto'>
                     <div class="section-title">
@@ -58,10 +59,11 @@
                 <div class="col-md-5">
                     <div class="about-content-left">
                         <div class="about-image-left">
-                            <img class="rounded-circle" src="assets/images/profile-pic.jpg" alt="Profile Picture">
+                            <img class="rounded-circle mx-auto d-block" src="assets/images/profile-pic.jpg" alt="Profile Picture">
                         </div>
                         <div class="about-personal-info">
-                            <ul class="list-info">
+                            <h3>Personal Info</h3>
+                            <ul class="list-unstyled">
                                 <li>
                                     <p>
                                         <span>
@@ -75,7 +77,7 @@
                                         <span>
                                             <b>EMAIL:</b>
                                         </span>
-                                        <span>Aaron Colbert</span>
+                                        <span>aaron-colbert@hotmail.com</span>
                                     </p>
                                 </li>
                                 <li>
@@ -91,13 +93,12 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-6 offset-md-1">
+                <div class="col-md-6">
                     <div class="about-content-right">
                         <!--ELEVATOR PITCH-->
                         <h2>
-                            <span>hello, its
-                                <b>alex smith</b>
+                            <span>Hello, its
+                                <b>Aaron Colbert</b>
                             </span>certified professional web developer and front end designer</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde magnam quasi quidem qui deleniti deserunt
                             harum aspernatur, eaque cupiditate sapiente.
@@ -110,9 +111,162 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-    </div>
+    <section id="resume" class="section-padding alt-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 md-offset-2 mx-auto">
+                    <div class="section-title">
+                        <h1>resume</h1>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="column-left">
+                        <span class="icon">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                        </span>
+                        <div class="item">
+                            <h6 class="sm-titl">University of Toronto</h6>
+                            <span class="date">March - Present 2018</span>
+                            <p>Coding Boot Camp for Full Stack Web Development</p>
+                        </div>
+                        <div class="item">
+                            <h6 class="sm-titl">Seneca College</h6>
+                            <span class="date">2012 - 2016</span>
+                            <p>Computer Engineering Technology Advanced Diploma</p>
+                        </div>
+
+                        <!--  <div class="item">
+                            <h6 class="sm-titl">Abc High School.</h6>
+                            <span class="date">2000 - 2004</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua.</p>
+                        </div>-->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="column-right">
+                        <span class="icon">
+                            <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        </span>
+                        <div class="item">
+                            <h6 class="sm-titl">Sr. Test Analyst, Miipe Quality Solutions</h6>
+                            <span class="date">2016 - Present</span>
+                            <p>Analyze business and functional requirements for a variety of systems and create test cases</p>
+                            <p>Perform SFT, UAT, and Prod test case execution, log defects and compile testing reports</p>
+                            <p>Coordinate and cross train a test team in test case writing and execution</p>
+                            <p>Perform front end, back end, and end to end tests on a variety of systems and software’s</p>
+                            <p>Organize and host defect and work session calls</p>
+
+                        </div>
+                        <div class="item">
+                            <h6 class="sm-titl">Store Associate/ Department Supervisor in Training, Home Depot</h6>
+                            <p class="date">2012 - 2016</p>
+                            <p>Interact with customers to provide information on new projects and solutions to their problems</p>
+                            <p> Resolve customer issues regarding products</p>
+                            <p> Ensures other associates are completing their daily tasking’s
+                            </p>
+                        </div>
+                        <div class="item">
+                            <h6 class="sm-titl">Automation Test Application Developer, CIBC</h6>
+                            <span class="date">January - August 2015</span>
+                            <p>Wrote functions and test scripts to automate tasks performed on specific web pages</p>
+                            <p>Ran test scripts and produced variance/ defect reports</p>
+                            <p>Maintained and modified existing test scripts and functions</p>
+                        </div>
+                        <div class="item">
+                            <h6 class="sm-titl">Senior Developer - Abc Inc.</h6>
+                            <span class="date">2010 - 2013</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 md-offset-2 mx-auto">
+
+                    <div class="section-title wow fadeInUp">
+                        <h1>Projects</h1>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row work-items grid wow fadeIn">
+
+                <div class="col-md-4 bug-fix development">
+                    <div class="single-work-item">
+                        <a href="https://ajcolbert.github.io/word-guess-game" class="image-popup">
+                            <img src="assets/images/hangman3.jpg" alt="">
+                            <div class="work-overlay">
+                                <h4>Hangman</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 design">
+                    <div class="single-work-item">
+                        <a href="https://ajcolbert.github.io/TriviaGame/" class="image-popup">
+                            <img src="assets/images/gameshow.jpg" alt="">
+                            <div class="work-overlay">
+                                <h4>Trivia Game</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 design">
+                    <div class="single-work-item">
+                        <a href="https://ajcolbert.github.io/unit-4-game/" class="image-popup">
+                            <img src="assets/images/starwars4.jpg" alt="">
+                            <div class="work-overlay">
+                                <h4>StarWars RPG</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 design">
+                    <div class="single-work-item">
+                        <a href="https://ajcolbert.github.io/giftastic/" class="image-popup">
+                            <img src="assets/images/search.png" alt="">
+                            <div class="work-overlay">
+                                <h4>Gif Search</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 bug-fix development">
+                    <div class="single-work-item">
+                        <a href="https://ajcolbert.github.io/RPS-Multiplayer/" class="image-popup">
+                            <img src="assets/images/rock-paper-scissors2.png" alt="">
+                            <div class="work-overlay">
+                                <h4>Rock Paper Scissors</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
 
 
     <script src=""></script>
